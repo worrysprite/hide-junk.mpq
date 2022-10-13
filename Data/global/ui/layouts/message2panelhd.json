@@ -1,0 +1,483 @@
+{
+    "type": "SettingsPanel", "name": "message2Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": { "x": 1510, "y": -377, "width": 650, "height": 1130 },
+        "anchor": "$LeftPanelAnchor",
+        "applySettingsImmediately": false,
+    },
+    "children": [
+         {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": { "x": 10, "y": -128 },
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll",
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": { "x": -31, "y": 29, "width": 26, "height": 1208 },
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$ModTableRowHeight",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "RowModQoL",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModQolTitle",
+                                    "fields": {
+                                        "text": "",
+           	      	        "rect": { "x": 0, "y": 1940,  },
+                                        "style": {
+    			    "fontColor": "$FontColorGold",
+    			    "pointSize": "$MediumFontSize",
+    			    "spacing" : "$ReducedSpacing",
+    			    "alignment": { "h": "left", "v": "center" },
+      			    "options": { "lineWrap": true },
+                                                  },
+                                    },
+                                },
+                            ]
+                        },
+
+
+        {
+            "type": "ImageWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": -10, "y": -20, "scale": 0.87 },
+                "filename": "PANEL\\message\\s1",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 143, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4边缘\nÿc3等级 15 刺针灵气赋予\n+35% 攻击准确率\n+320-380% 对恶魔伤害 ÿcU(变动)\nÿc3+280% 对不死生物伤害\n+75 毒素伤害5秒内\n7% 生命于击中时偷取\n防止怪物自疗\n+5-10 转为所有属性 ÿcU(变动)\nÿc3+2 法力在每杀死一名敌人之后取得\n降低商店卖价15%\nÿcO重要属性：-15%商品价格\n其他亮点：防自疗、35IAS、7LL\n美中不足：缺ED\n除了UGC之外，减商品价格的物品只此一家别无分店，PASS中也是一把不错的过渡弓\nÿcC底材推荐\nÿc8短弓：需求最低的弓，任何CHAR都能够在无任何其他装备时使用\n符文之弓：基础攻速0的扩展级弓中均伤最高的\n其他：任何需求低的弓在NEC手里，都能反弹死都虫",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 183, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4和谐\nÿc3等级 10 精力灵气赋予\n+200-275% 增强伤害 ÿcU(变动)\nÿc3+9 最小伤害\n+9 最大伤害\n增加 55-160的火焰伤害\n增加 55-160的冰冷伤害\n增加 55-160的闪电伤害\n+2-6 到女武神 ÿcU(变动)\nÿc3+10 敏捷\n法力重生 20%\n+2 点法力在美杀一个敌人后取得\n+2 照亮范围\n等级20重生 (25聚气)\nÿcO重要属性：10级活力光环、275ED\n其他亮点：+6女武神、重生聚气\n美中不足：缺IAS\n赋予的活力光环成为除PAL之外的跑路首选\n不低的ED和元素伤害能让物理弓AMA在PASS时一路通杀，重生聚气更是在杀BOSS时大放异彩\nÿcC底材推荐\nÿc8女族长之弓：基础攻速-10的弓里均伤最高的，3弓技能也聊胜于无\n刀锋弓：和巨弓相比，低STR需求更适合物理弓AMA，而且同样是最大4孔\n猎弓：需求最低的4孔弓，放在副手跑路用\n其他：低需求的4孔弓都可以给MFCHAR做副手跑路",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 223, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4信心\nÿc3等级 12-15 狂热灵气赋予 ÿcU(变动)\nÿc3+1-2 所有技能 ÿcU(变动)\nÿc3+330% 增强伤害\n忽视目标防御\n300% 额外攻击准确率\n+75% 对不死生物伤害\n+50 对不死生物准确率\n所有抗性 +15\n10% 复活为 复活的怪物\n75% 额外金钱自怪物取得\nÿcO重要属性：15级狂热光环、330ED\n其他亮点：ITD、300%AR、复活亡灵\n美中不足：缺IAS\n15级狂热光环带来的大量攻速、ED和AR使其成为物理输出第一弓，同时也让A1PET有了作为承载器出场的机会\nÿcC底材推荐\nÿc8大院长之弓：PVC中追求DPS的最佳底材，搭配IAS甲更是如虎添翼\n阴影弓：伤害与攻速较平衡的底材，PK中出场率很高，盗贼皇冠的存在也使其比巨弓更适合作为A1PET武器\n其他：没有阴影弓时，钻石弓可作为自用代替品，伤害稳定是亮点\n巨弓可作为PET用代替品，能够更快地触发装备上的CB等效果",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 263, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4叶子\nÿc3增加 5-30 火焰伤害\n+3 火焰技能\n+3 火弹 (限法师)\n+3 地狱之火 (限法师)\n+3 暖气 (限法师)\n+2 法力在每杀死一名敌人之后取得\n+2-198 防御 (依角色等级乘2)\n+33% 冰冷抗性\nÿcO重要属性：3火SKILL\n其他亮点：2EK、+3温暖\n美中不足：缺FCR\n纯火SOR和冰火SOR的开荒利器，底材可以找阿卡拉或者卓格南\nÿcC底材推荐\nÿc8短棍：技能自然是火系为佳，带辅助技能省技能点也可以考虑\n其他：SOLO中有3火球的底材皆可使用",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 303, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4苍白\nÿc3击中使怪物逃跑 25%\n+10 体力\n+3 毒素和白骨技能 (限死灵法师)\n+3 白骨装甲 (限死灵法师)\n+2 骨矛 (限死灵法师)\n+4 支配骷髅 (限死灵法师)\n法术伤害减少 4\n20% 高速施法\n+13 法力\nÿcO重要属性：3毒骨、20FCR\n其他亮点：2骨矛、4骷髅支配\n美中不足：低MANA\nPVC中最适合纯骨NEC的武器，也能成为毒NEC的过渡品\nÿcC底材推荐\nÿc8骨杖：白色在PK中多被OAK取代，而骨魂在PVC中也很少使用，所以附带诅咒的用途更广\n其他：附带有3骨矛的2孔NEC杖都有做白色的价值",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 341, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4橡树之心\nÿc3+3 到所有技能\n40% 高速施展\n+75% 对恶魔系生物的伤害\n+100 对恶魔系生物的准确率\n加 3-14 冰冷伤害\n7% 法力于击中时偷取\n+10 敏捷\n生命恢复速度 +20\n增加最大法力 15%\n所有抗性 +30-40 ÿcU(变动)\nÿc3等级 4 橡木智者 (25 聚气)\n等级 14 乌鸦 (60 聚气)\nÿcO重要属性：3SKILL、40FCR、40RES\n其他亮点：橡木智者聚气、15%MANA上限、20生命恢复\n美中不足：缺LIFE\n俗称OAK，高SKILL和高FCR可说是法系的万金油，橡树智者聚气也能给BHPAL制造召唤BUG\nÿcC底材推荐\nÿc8连枷：需求最低的底材，也是通用的唯一底材了",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 381, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4眼光\nÿc3等级12-17冥思灵气赋予 ÿcU(变动)\nÿc3+35% 高速施展速度\n+200-260% 增强伤害 ÿcU(变动)\nÿc3+9 最小伤害\n180-250% 额外攻击准确率 ÿcU(变动)\nÿc3增加 5-30 火焰伤害\n+75 毒素伤害于每5秒作用\n+1-6 致命攻击 ÿcU(变动)\nÿc3+5 所有属性\n+2 法力在每杀一个敌人后取得\n23% 更佳机会取得魔法装备\nÿcO重要属性：17级冥思光环、35FCR\n其他亮点：+6双倍打击、260ED、250%AR\n美中不足：缺IAS、-LR\n冥思光环带来的MANA高速回复让法系CHAR从此不必担心续航性\n搭配上普通难度A2战斗PET的祈祷光环更是能双倍LIFE回复双倍打击技能\n也让好变量的DPS一举超越无限和遵从，SOLO中必做\nÿcC底材推荐\nÿc8神秘之斧：在与安脸的搭配中能有最高的DPS\n巨长斧：在与鳗鱼头的搭配中能有最高的DPS\n鲛尾巨斧：与鳗鱼头的搭配中DPS和巨长斧相差无几\n锐利之斧：没有鲛尾的次选择\n战斗镰刀：相当低的STR和DEX需求让达到等级的A2PET马上即可使用\n战斗法杖：眼光女的手抓底材，牺牲伤害换取了续航性，争议比镰刀女更大",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 421, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4遵从\nÿc3杀敌后 30% 机率施展 21 级强化\n40% 快速再度攻击\n+370% 增强伤害\n-25% 目标防御\n+3-14 冰冷伤害\n-25% 对敌人火焰系抗性\n40% 压碎打击\n+200-300 防御 ÿcU(变动)\nÿc3+10 力量\n+10 敏捷\n所有抗性 +20-30 ÿcU(变动)\nÿc3-20%需求\nÿcO重要属性：370ED、40CB、触发21级火焰强化\n其他亮点：40FHR、30RES、20REQ\n美中不足：缺IAS，有CD\n低造价与高CB共同助其成为平民杀BOSS利器，攻防一体的属性也让PET更能抗\n可惜DPS被眼光压一头，CB效率也略逊于宏森丹，终极搭配里一般都不会出现\nÿcC底材推荐\nÿc8鲛尾巨斧：CB效率最高的底材\n锐利之斧：有形的可以给狂怒狼放副手出强化，无形的没有鲛尾的次选择\n巨长斧：CB效率较鲛尾略低，但DPS高出不少\n残酷镰刀：伤害相当于有形的精华长柄，20REQ也让PET更容易装备\n其他：神秘之斧与安脸搭配中DPS最高，可惜低攻速不利于触发CB",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 461, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4无限\nÿc350% 机率施展等级20连锁闪电于杀敌之后\n等级 12 信念灵气赋予\n+35% 高速跑步\n+255-325% 增强伤害 ÿcU(变动)\nÿc3-45-55% 敌人电抗 ÿcU(变动)\nÿc340% 机率压碎打击\n防治怪物自疗\n+0-49 体力 (依角色等级乘0.5)\n30% 更佳机会取得魔法装备\n等级 21 飓风装甲 (30 聚气)\nÿcO重要属性：12级审判光环、-55LR\n其他亮点：40CB、325ED、飓风装甲聚气、35FRW\n美中不足：缺IAS、FCR\n赋予的审判光环成为以元素伤害为主CHAR的最佳PET武器\n40CB也能在杀BOSS时起不小的作用，由于缺少LL，常与安脸和鳗鱼头搭配使用\nÿcC底材推荐\nÿc8巨长斧：对于持有野兽的CHAR是不二选择，对于无野兽的CHAR也是DPS与CB较平衡的底材\n鲛尾巨斧：利用最高的基础攻速触发CB杀BOSS，搭配鳗鱼头的DPS也与巨长相差无几\n锐利之斧：没有鲛尾的次选择\n镰刀：为了充分利用-55LR，出现了CHAR手持无限的纯电SOR练法，镰刀的STR和DEX需求是最低的\n其他：对于无野兽CHAR来说，神秘之斧在安脸搭配下能达到最高DPS，可惜低攻速不利于触发CB",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 500, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4毁灭\nÿc323% 打击时施展等级 12 火山\n5% 打击时施展等级 23 熔浆巨岩\n100% 机会于你死亡时施展等级 45 陨石\n攻击时 15% 施展等级 22 新星\n+350% 增强伤害\n忽视目标防御\n增加 100-180 魔法伤害\n7% 每次击中偷法\n20% 压碎打击\n20% 致命一击\n防止怪物自疗\n+10 敏捷\nÿcC坑爹货，也许还等待着谁去挖掘他们的价值",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 539, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4骄傲\nÿc325% 机率受攻击时施展等级 17 火牆\n等级 16-20 专注灵气赋予 ÿcU(变动)\nÿc3+260-300% 额外攻击准确率 ÿcU(变动)\nÿc3+1-99% 对恶魔伤害 (依角色等级乘1)\n增加 50-280 闪电伤害\n20% 致命攻击\n击中使目标目盲\n冰冻目标 +3\n+10 体力\n生命补满 +8\n+1-185% 额外金钱取自怪物 (依角色等级乘1.875)\nÿcO重要属性：20级专注光环\n其他亮点：20DS、300%AR\n美中不足：有致盲\n专注光环能极大地提高伤害，但本身没有ED加成且会碎尸\n一般只给物理弓AMA的PET使用，够土豪的纯招NEC也能用来做钢铁石魔\nÿcC底材推荐\nÿc8鲛尾巨斧：一般不看重PET的DPS，需要的是高攻速触发效果控场\n锐利之斧：没有鲛尾的次选择\n巨长斧：最通用的底材，可惜与无限、眼光等更常用的符文之语冲突\n镰刀：在有攻击反噬的版本里，最低的伤害可以防止自杀\n其他：神秘之斧也能作为候选，只是攻速较慢", 
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 579, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4钢铁\nÿc320% 增强伤害\n+3 最小伤害值\n+3 最大伤害值\n+50 攻击准确率\n50% 撕开伤口机率\n25% 增加攻击速度\n+2 法力在每杀死一名敌人之后取得\n+1 照亮范围\nÿcO重要属性：25IAS、50OW\n其他亮点：50AR、2EK\n美中不足：低ED\nÿcC底材推荐\nÿc8弯刀：基础攻速最快的普通级刀剑，一般给元素伤害为主的近战CHAR使用\n连枷：虑到低等级下缺少补IAS的方法，该底材的DPS应比巨战斧更高缺点是有DEX需求\n巨战斧：在基础攻速0的普通级单手武器中，RANGE、均伤都是最高的",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 619, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4精神\nÿc3+2 所有技能\n+25%-35% 高速施展速度ÿcU(变动)\nÿc3+55% 快速度再攻击\n+250 对飞射性防御\n7% 偷取生命\n+3-14 冰冷伤害\n+1-50 闪电伤害\n+75 毒素伤害\n+22 体力\n+89-112 法力ÿcU(变动)\nÿc3+3-8 魔法吸收ÿcU(变动)\nÿcO重要属性：35FCR、2SKILL、55FHR\n其他亮点：112MANA、22VIT\n美中不足：缺REQ\nÿcC底材推荐\nÿc8水晶剑：STR需求最低的底材，造型也很多人喜欢",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 657, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4新月\nÿc3击中敌人时有 10% 机会施展等级 17 连锁闪电\n击中敌人时有 7% 机会施展等级 13 静态力场\n20% 攻击准确率\n180-220% 增强伤害 ÿcU(变动)\nÿc3忽视目标防御\n-35% 到敌人闪电抗性\n25% 机会撕裂伤口\n+9-11 魔法吸收 ÿcU(变动)\nÿc3+2 法力在每杀一个敌人后取得\n等级 18 召唤鬼狼 (30 聚气)\nÿcO重要属性：-35LR、20IAS\n其他亮点：触发13级静态力场、ITD、2EK\n美中不足：缺FCR\nÿcC底材推荐\nÿc8水晶剑：STR需求低且造型美观就是选择的理由\n幻化之刃：基础攻速最高的单手武器，还有无法破坏的特性\n其他：斧和双刃斧的STR需求也很低，不同审美的人可以选择",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 697, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4誓约\nÿc3击中敌人有 30% 机会施展等级20白骨之魂\n无法破坏\n+50% 攻击准确率\n+210-340% 增强伤害 ÿcU(变动)\nÿc3+75% 对恶魔伤害\n+100 对恶魔准确率\n防止怪物自疗\n+10 精力\n+10-15 魔法吸收 ÿcU(变动)\nÿc3等级 16 狼獾之心 (20聚气)\n等级 17 钢铁石魔 (14聚气)\nÿcO重要属性：340ED、无法破坏、50IAS\n其他亮点：防自疗\n美中不足：缺DS\n武器该有的无法破坏、高IAS、高ED都有了\n加上极其广泛的通用性，可谓是平民武器之王\nÿcC底材推荐\nÿc8狂战士斧：单手武器中RANGE最大、基础攻速和伤害最均衡的底材\n弯月斧：双头斧的次选择，极低的入手难度和最大4孔的优势反而使其出场率远高于双头斧\n银刃斧：对狂怒狼而言DPS最高的底材\n猛禽斧：对熊德而言最容易搭配装备的底材，给BB也可以让WW到4F\n巨神之剑：所有刀剑类均伤最高的底材，50IAS能保证WW达到4F\n炎魔之刃：基础攻速比巨神之剑稍快，能让誓约+死神搭配的狂乱BB起手速度快0.5F\n也让专心BB更容易达到9F急速，最大4孔也是优势之一\n天罚之锤：基础攻速-10的单手武器中，STR和DEX需求、均伤、RANGE都压倒其他底材\n其他：巨神之刃可以作为WWBB的候选，高地之剑可以作为狂乱BB和狂战士BB的候选",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 737, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4弑君者\nÿc330% 提升攻击速度\n230-270% 增强伤害 ÿcU(变动)\nÿc3-25% 目标防御\n20% 额外攻击准确率加成\n33% 机会出现压碎性打击\n50% 机会撕裂伤口\n+1 到复仇\n防止怪物自疗\n+10 力量\n40% 额外金币从怪物身上取得\nÿcO重要属性：33CB、50OW、30IAS\n其他亮点：270ED、-25%目标防御、+1复仇\n美中不足：缺无法破坏\nCB、OW、IAS等属性使其成为名符其实的杀BOSS利器\n可以单凭一件武器通杀，但都可以被其他装备替换，这也是评价褒贬不一的原因\nÿcC底材推荐\nÿc8幻化之刃：基础攻速最高的单手武器，还有无法破坏的特性\n狂战士斧：单手武器中RANGE最大，可惜耐久较低，只能给不消耗耐久的CHAR使用\n冠军斧：耐久最高的精华斧之一，较高的基础攻速给满电火支配的SOR玩复仇容易达到急速\n其他：猛禽斧和银刃斧通过适当搭配都可以复仇SOR使用，不过是回城修理次数频繁一些",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 777, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4死神\nÿc3当死亡时 100% 产生44级的连锁闪电\n攻击时 25% 产生 18 级的冰尖柱\n无法破坏\n300-385% 增强伤害 ÿcU(变动)\nÿc320% 额外准确率增加\n+50 攻击准确率\n1-50 闪电伤害\n7% 偷取法力\n50% 压碎打击\n+0-49% 致命攻击 (依角色等级乘0.5)\n+1 照亮范围\n等级 22 鲜血石魔 (15聚气)\n-20% 需求\nÿcO重要属性：385ED、无法破坏、0.5DS每级\n其他亮点：50CB、7LM\n美中不足：缺IAS\n无法破坏、高ED、高CB、高DS，条条属性都如此凶残\n，就因为缺了IAS而多被沦为侧手，只有在攻速超高的双热PAL手里才能与悔恨相提并论\nÿcC底材推荐\nÿc8狂战士斧：单手武器中RANGE最大、基础攻速和伤害最均衡的底材\n巨神之剑：狂乱BB只算主手的IAS，所以侧手可以尽量用无IAS的武器，同时也是双手双热的利器\n其他：双头斧是没有狂战士斧时的次选择，巨神之刃是没有巨神之剑时的次选择",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 815, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4战争召唤\nÿc3+1 到所有技能\n40% 攻击准确率\n250-290% 增强伤害 ÿcU(变动)\nÿc3加 5-30 火焰伤害\n7% 生命于击中时偷取\n+2-6 到战斗指挥 ÿcU(变动)\nÿc3+1-6 到战斗体制 ÿcU(变动)\nÿc3+1-4 到战嗥 ÿcU(变动)\nÿc3防止怪物自疗\n生命恢复速度 +12\n30% 更佳机会取得魔法装备\nÿcO重要属性：+6战斗体制、+6战斗指挥、1SKILL\n其他亮点：40IAS、270ED\n美中不足：缺+大叫\n俗称CTA，以战斗体制著称，通常放在副手撑高LIFE和MANA\nPK中更是必不可少，极少数CHAR也用来做输出的武器\nÿcC底材推荐\nÿc8水晶剑：STR需求低且造型美观就是选择的理由\n巨战权杖：除了自带的救赎能够在PVC中省下点数，撑高的净化也能减少中毒与诅咒的时间\n神使之杖：不同技能不同练法的PAL，一在PK中不仅可以用冲锋偷袭还可以开审判放天堂之拳猥琐对手\n二和流亡搭配，开狂热快速打出LT；三给双热对付物免的不死怪\n其他：双刃斧和连枷的需求也不高，大院长之弓做的成品也能成为元素弓AMA不错的武器",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 855, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4悔恨\nÿc335% 打击时施展等级 15 毒牙\n+30-40% 攻击准确率 ÿcU(变动)\nÿc3伤害 +340-400 ÿcU(变动)\nÿc3忽视目标防御\n-25% 目标防御\n+1-15% 对恶魔伤害 (依角色等级乘1.875)\n增加 5-30 火焰伤害\n-20-25% 对敌人毒素系抗性 ÿcU(变动)\nÿc320% 致命一击\n防止怪物自疗\n+2 法力在每杀一个敌人后取得\n+10-15 生命在每杀一个敌人后取得 ÿcU(变动)\nÿcO重要属性：400DAM、40IAS\n其他亮点：20DS、ITD、防自疗\n美中不足：缺无法破坏\n无视底材直接增加400DAM使其成为名符其实的单手武器之王\n40IAS进一步解放了装备，ITD也让我们对小怪时无需考虑AR，实为近战物理CHAR的首选\nÿcC底材推荐\nÿc8幻化之刃：最高的基础攻速加上无法破坏的特性，简直是为悔恨量身定做的底材\n韩瑞德之剑：RANGE比幻化之刃大1，最低变量的IAS也能保证WW达到4F，非超强的修理费也不贵\n狂战士斧：由于低耐久和高修理费的原因无法出现在PVC中，但在PK场上凭借野兽和末日的\n辅助一跃成为最热门的底材，要使WW达到4F需要34IAS\n其他：巨神之刃的IAS变量在39以上时能使WW达到4F，PVC里追求最高伤害时可以选用",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 895, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4最后希望\nÿc3被击中时 6% 机率产生 11 级能量消减\n击中敌人时 10% 机率产生 18 级偷取生命\n攻击时 20 %产生 20 级充能弹\n等级 17 力量灵气赋予\n+330-375% 增强伤害 ÿcU(变动)\nÿc3忽视目标防御\n60-70% 压碎打击 ÿcU(变动)\nÿc3防止怪物自疗\n击中使怪物盲目\n+0-49% 更佳机会取得魔法装备 (依角色等级乘0.5)\nÿcO重要属性：70CB、触发18级偷取生命\n其他亮点：触发11级能量消解、17级力量光环\n美中不足：缺IAS、无法破坏\n造价最高的符文之语，只有在杀6BOSS的时候才较能发挥性能\nÿcC底材推荐\nÿc8幻化之刃：盾击无视武器伤害，双梦也以LD为主，底材基础攻速越快越好\n巨神之刃：对于偏爱A5PET的可以作为辅助",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 934, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4末日\nÿc3击中敌人时有5% 机会施展等级 18 火山\nÿc3等级 12 神圣冰冻灵气赋予\n+2 到所有技能\n45% 提升攻击速度\n330-370% 增强伤害 ÿcU(变动)\nÿc3-40-60% 敌人冰冷抗性 ÿcU(变动)\nÿc320% 致命攻击\n25% 机会撕裂伤口\n防止怪物自疗\n冻结目标\n需求 -20%\nÿcO重要属性：12级神圣冰冻光环、-60CR\n其他亮点：380ED、45IAS、20DS\n美中不足：缺无法破坏\n赋予的圣冰光环可以提高安全性，-60CR也让风德有了选择的理由，因缺少无法破坏\n近战武器只出现在PK场上，和野兽一同撑起了斧支配WWBB的天下，但也有少数练法可作为PET武器\nÿcC底材推荐\nÿc8狂战士斧：RANGE最大的单手斧，风德也能轻松拿起\n神秘之斧：对于侧手使用执法者的狂乱BB，丧钟的重要性大减\n圣冰对狂战士BB追击小怪的用处也不小，搭配鳗鱼头能达到最大输出\n巨长斧：安脸搭配下DPS最高的底材\n其他：锐利之斧最大5孔，入手比巨长斧容易，可作为候选",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 972, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4死亡呼吸\nÿc3每杀死一个敌人50%机会施展等级20剧毒新星\n无法破坏\n60% 攻击准确率\n+350-400% 增强伤害 ÿcU(变动)\nÿc3+200% 对不死系生物伤害\n-25% 目标防御\n+50 到准确率\n+50 对不死系生物的准确率\n7% 法力于击中时偷取\n12-15% 生命于击中时偷取 ÿcU(变动)\nÿc3防止怪物自疗\n+30 到所有属性\n+1 到照亮范围\n需求 -20%\nÿcO重要属性：60IAS、400ED、无法破坏\n其他亮点：30全属性、LL、LM、防自疗\n美中不足：缺DS\n俗称BOTD，天梯符文出来以后，单手武器绝大多数被悔恨压过\nA2PET武器里也多数被无限、丧钟、眼光压得抬不起头\nÿcC底材推荐\nÿc8鬼魂之矛：相对而言通用性最好的底材，宏森丹的存在也助其压巨长斧一头\n巨长斧：对WWBB而言伤害比鬼魂之矛更高，只因长柄里没有能达到4F的CB武器而少人问津\n战枪：除了打钱BB外，对应的练法多是冷门，不过性能还是不错\n狂战士斧：在DAM无法作用的复仇上，BOTD终于吐气扬眉了一把\n巨神之刃：在没有天梯符文的版本里，出场率还是蛮高的\n其他：雷锤是狂战士BB的最佳选择，女族长之矛可以给矛马物电双修\n十字军之弓也在娱乐练法中出现，冠军斧和食人魔之锤给狂怒狼也能比誓约的DPS更高",
+                "sound": "",
+            }
+        },
+
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1170, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4隐秘\nÿc3法术伤害减少 3\n+6 敏捷\n+15 耐久上限\n毒素抗性 +30%\n法力重生 15%\n25% 高速跑步 / 行走\n25% 高速施法 / 快速再度攻击\nÿcO重要属性：25FCR、25FRW\n其他亮点：25FHR、+15%法力回复速度\n美中不足：缺SKILL\n性价比极高的盔甲，SOLO中任何CHAR都值得一做，法系更是能够用到PASS\nÿcC底材推荐\nÿc8轻型装甲：DEF最高的普通轻甲\n法师铠甲：DEF最高的扩展轻甲\n其他：所有的普通级轻甲都可以做，SOLO中不挑底材",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1209, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4烟雾\nÿc3+75% 增加防御\n+280 对飞射性武器防御\n所有抗性+50%\n20% 快速再度攻击\n等级 6 削弱 (18 聚气)\n+10 精力\n-1 照亮范围\nÿcO重要属性：50RES\n其他亮点：20FHR\n美中不足：ed低\n综合性能并不显眼，只能在SOLO中帮CHAR补RES\nÿcC底材推荐\nÿc8法师铠甲：DEF最高的扩展轻甲\n其他：SOLO中任何2孔轻甲都可以做",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1248, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4背信\nÿc3被击中时 5% 机会施展等级 15 能量消解\n打击时有 25% 机会施展等级 15 毒牙\n+2 刺客技能\n+45% 增加准确率\n+20% 快速再度攻击\n抗寒 +30%\n50% 额外金币从怪物身上取得\nÿcO重要属性：45IAS、2ASNSKILL\n其他亮点：触发15级能量消解、20FHR\n美中不足：缺ed\n15级的能量消解能够提供大量的RES和DR，45IAS对于用双八爪的陷阱ASN能\n在不开速度爆发的情况下恰好达到9F急速，给物理弓AMA也有不小的作用\nÿcC底材推荐\nÿc8执政官铠甲：DEF最高的精华轻甲，STR需求也容易达到\n法师铠甲：底材来源丰富，最大3孔也是优势之一\n神圣盔甲：DEF最高的甲，适合STR高的CHAR，在安脸或CB头的支持下A2PET也能使用\n漆甲：PET无需任何加STR的装备即能使用，常搭配鳗鱼头\n其他：精华轻甲都是可考虑的对象，海妖壳甲和炎魔皮板甲也可以PET用",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1287, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4强制\nÿc340% 快速打击恢复\n+10-20% 增强伤害 ÿcU(变动)\nÿc3+37-133 冰冷伤害\n15% 机会出现压碎性打击\n33% 机会撕裂伤口\n+150-200% 增强御力 ÿcU(变动)\nÿc3-20% 减慢体力耗损\n抗冰 +45%\n抗电 +15%\n抗火 +15%\n抗毒 +15%\nÿcO重要属性：33OW、15CB、40FHR\n其他亮点：200ed、15RES\n美中不足：有CD\n攻防一体的盔甲，CB和OW在杀BOSS时作用不小，综合防御性能也相当不错\n是做不起刚毅的平民首选，可惜带有CD无法在打钱中使用\nÿcC底材推荐\nÿc8执政官铠甲：DEF最高的精华轻甲，STR需求也容易达到\n神圣盔甲：DEF最高的甲，适合STR高的CHAR，在安脸或CB头的支持下A2PET也能使用\n漆甲：PET无需任何加STR的装备即能使用，常搭配鳗鱼头\n其他：精华轻甲都是可考虑的对象，海妖壳甲和炎魔皮板甲也可以PET用",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1326, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4石块\nÿc360% 快速再度攻击\n+250-290% 增强防御 ÿcU(变动)\nÿc3+300 对飞射性武器的防御\n+16 力量\n+16 体力\n+10 精力\n所有抗性 +15\n等级 16 溶浆巨岩 (80 聚气)\n等级 16 黏土石魔 (16 聚气)\nÿcO重要属性：熔浆巨岩聚气、60FHR、290ed\n其他亮点：15RES、黏土石魔聚气\n美中不足：缺OW\n偏重防御的盔甲，更多人愿意选择同等价位的强制\n但在有聚气BUG的1.10中，可以给炎爪熊剩下大量点数\nÿcC底材推荐\nÿc8执政官铠甲：DEF最高的精华轻甲，STR需求也容易达到\n神圣盔甲：DEF最高的甲，适合STR高的CHAR，在安脸或CB头的支持下A2PET也能使用\n漆甲：PET无需任何加STR的装备即能使用，常搭配鳗鱼头\n其他：精华轻甲都是可考虑的对象，海妖壳甲和炎魔皮板甲也可以PET用",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1365, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4幽暗\nÿc3被击中时有15% 机会施展等级 3 微暗灵视\n+10% 快速再度攻击\n200-260% 增强防御 ÿcU(变动)\nÿc3+10 力量\n所有抗性 +45\n冰冻时间减半\n5% 伤害移至法力\n-3 到照亮范围\nÿcO重要属性：45RES、260ed\n其他亮点：触发3级微暗灵视、10FHR\n美中不足：缺DR\n和石块同等价位且都是偏重防御的盔甲，对上电鬼时会有点优势\n但总体性能比不上石块，也只有SOLO中才有可能做\nÿcC底材推荐\nÿc8灰幕布衣：最容易入手的精华级甲，在噩梦就有机会出\n其他：法师铠甲相比之下更容易入手，只是DEF略低",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1404, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4谨慎\nÿc325% 快速再度攻击\n+140-170% 增强防御 ÿcU(变动)\nÿc3全面抵抗 +25-35 ÿcU(变动)\nÿc3物理伤害减少 3\n魔法伤害减少 17\n+2 法力在每杀死一名敌人之后取得\n+2 照亮范围\n回复耐久度1于4秒内\nÿcO重要属性：恢复耐久、170ed\n其他亮点：25FHR、35RES\n美中不足：缺属性\n由于有恢复耐久的属性，可以放心地给CHAR用无形甲大幅提高DEF，也让打坏的2孔盔甲有了用途\nÿcC底材推荐\nÿc8执政官铠甲：DEF最高的精华轻甲\n神圣盔甲：DEF最高的精华甲\n其他：打坏的2孔精华甲都是可选用的底材",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1444, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4刚毅\nÿc3被击中时 20% 机率产生 15 级寒冰装甲\n25% 高速施法速度\n增加 300% 伤害\n增加 200% 防御\n+15 防御\n+1-148 生命 (依角色等级乘 1-1.5) ÿcU(变动)\nÿc3生命补满 +7\n+5% 最大闪电抗性\n所有抗性 +25-30 ÿcU(变动)\nÿc3减少伤害 7\n12% 伤害转为法力\n+1 照亮范围\nÿcO重要属性：300ED、1.5LIFE每级、30RES\n其他亮点：25FCR、触发15级寒冰装甲\n美中不足：缺IAS\n300ED使其成为近战物理CHAR的最强输出甲\n综合防御能力也是数一数二，同时也是PET的最强甲\nÿcC底材推荐\nÿc8执政官铠甲：DEF最高的精华轻甲，STR需求也容易达到\n神圣盔甲：DEF最高的甲，适合STR高的CHAR，在安脸或CB头的支持下A2PET也能使用\n漆甲：PET无需任何加STR的装备即能使用，常搭配鳗鱼头\n其他：精华轻甲都是可考虑的对象，海妖壳甲和炎魔皮板甲也可以PET用",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1484, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4荣耀之链\nÿc3+2 到所有技能\n+200% 对恶魔系生物伤害\n+100% 对不死系生物伤害\n8% 生命于击中时偷取\n70% 增强防御\n+20 力量\n生命恢复速度 +7\n所有抗性 +65\n伤害减少 8%\n25% 更佳机会取得魔法装备\nÿcO重要属性：2SKILL、65RES\n其他亮点：8%DR、8LL\n美中不足：缺FCR\n俗称COH，有着非常华丽的属性，却因为谜团的存在使得实用范围大减\n只有一些RES紧缺而不依赖TP的CHAR会使用\nÿcC底材推荐\nÿc8执政官铠甲：DEF最高的精华轻甲，STR需求也容易达到\n其中无形的多给物理弓的PET撑光环等级，也有打钱BB的PET用\n古龙皮：和女族长之弓的需求搭配起来是绝配，远程也不需要在意DEF和耐久了",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1524, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4谜团\nÿc3+2 到所有技能\n45% 高速跑步/行走\n+1 传送\n+750-775 防御 ÿcU(变动)\nÿc3+0-74 力量 (依角色等级乘0.75)\n增加最大生命 5%\n伤害减少 8%\n+14 生命在每杀一个敌人后取得\n15% 伤害移至法力\n+1-99% 更佳机会取得魔法装备 (依角色等级乘1)\nÿcO重要属性：+1TP、1MF每级、2SKILL\n其他亮点：0.75STR每级、8%DR、45FRW\n美中不足：缺RES\n俗称TP+，可谓是1.10以后暗黑的象征，+1TP让PK场上的格局从此改变\n大量的MF也让几乎所有的CHAR都有了MF能力，海量的STR更是能帮助实现0STR投入\nÿcC底材推荐\nÿc8法师铠甲：DEF最高的扩展轻甲，即使在没有ULC的1.10中仍然能够轻松实现0STR投入\n灰幕布衣：STR需求最低的精华甲，在ULC出现之后被越来越多的使用\n执政官铠甲：DEF最高的精华轻甲，由于PK中常常需要用到年纪\n所以STR一般不会浪费，而在PVC中也可以BUG穿装备，只是捡尸体的时候有些麻烦",
+                "sound": "",
+            }
+        },
+
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1722, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4古代人的誓约\nÿc3+50% 防御强化\n+43% 冰冷抗性\n+48% 火焰抗性\n+48% 闪电抗性\n+48% 毒素抗性\n10% 受损生命转移至法力\nÿcO重要属性：40+RES\n其他亮点：符文来源\n美中不足：缺无法冰冻\n单看RES还不如3白PG盾，只因A5的第二个任务奖励即是全套符文，入手可算是毫无压力\nÿcC底材推荐\nÿc8轻盾：普通级唯一的通用3孔轻型盾，STR需求也不算太高\n皇冠之盾：普通级PAL专用盾中格挡和DEF都是最高的\n其他：龙盾的STR需求略高，BB这类高STR的CHAR可以考虑",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1762, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4精神\nÿc3+2 所有技能\n+25%-35% 高速施展速度 ÿcU(变动)\nÿc3+55% 快速度再攻击\n+250 对飞射性防御\n+22 体力\n+89-112 法力 ÿcU(变动)\nÿc3抗寒+35%\n抗闪电+35%\n抗毒+35%\n+3-8 魔法吸收 ÿcU(变动)\nÿc3攻击者受到伤害14\nÿcO重要属性：35FCR、2SKILL、55FHR\n其他亮点：112MANA、22VIT\n美中不足：缺REQ\n精神盾是大多数法系CHAR的最佳选择，精神剑在PASS的过程中也是常常出现，风德在PK中有时用来撑FHR\nÿcC底材推荐\nÿc8统治者大盾：STR需求最低的通用4孔盾，也是唯一的轻盾，ETH的可以放副手省STR，多搭配战争召唤\n神圣小盾：格挡率最高的PAL盾，ETH的可以放副手\n其他：BHPAL在PASS过程中可用亚克南圆盾过渡，26级即可使用\n神圣轻圆盾的格挡仅比神圣小盾稍低，也可一用",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1801, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4声韵\nÿc320% 增加格挡率\n40% 快速再度格挡\n全面抵抗 +25%\n法力重生 15%\n无法冰冻\n50% 额外金钱从敌人身上取得\n25% 更佳的机会取得魔法物品\nÿcO重要属性：无法冰冻、20CTB、40FBR\n其他亮点：25MF、25RES\n美中不足：缺SKILL\n无法冰冻、CTB、RES、MF等属性简直为SOLO的近战CHAR量身打造，平民MFCHAR也常放副手撑高MF\nÿcC底材推荐\nÿc8冷酷之盾：DEF最高的扩展通用盾，最大2孔也是优势之一\n亚克南轻圆盾：等级需求和韵律较吻合，格挡也较亚克南圆盾高\n其他：倒刺护盾同样最大2孔，亚克南圆盾也是没有亚克南轻圆盾时的次选择",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1840, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4圣堂\nÿc320% 快速再度攻击\n20% 快速格档率\n20% 增加格档率\n130-160% 增强防御 ÿcU(变动)\nÿc3+250 对飞射性武器的防御\n+20 敏捷\n所有抗性 +50-70 ÿcU(变动)\nÿc3魔法伤害减少 7\n等级 12 慢速箭 (60 聚气)\nÿcO重要属性：20CTB、20FBR、70RES\n其他亮点：慢速箭聚气、20FHR、20DEX\n美中不足：缺DR\n综合性能相当好的盾牌，慢速箭聚气对付大群弓箭手等远程怪时作用明显\n可惜饰金盾和暴风盾的存在使其出场率降低不少\nÿcC底材推荐\nÿc8洞穴巨魔骨盾：精华盾中DEF最高的通用盾\n最大3孔也是优势之一，可惜格挡率略低\n神圣小盾：格挡率最高的PAL盾，需求等级也很低\n其他：神圣轻圆盾是没有神圣小盾时的次选择",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1879, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4流亡\nÿc3击中敌人时有 15% 机会施展等级 5 偷取生命\n等级 13-16 反抗灵气赋予 ÿcU(变动)\nÿc3+2 到攻击性灵气 (限圣骑士)\n+30% 快速格档率\n冻结目标\n220-260% 增强防御 ÿcU(变动)\nÿc3生命恢复速度 +7\n+5% 到最大冰冷抵抗\n+5% 到最大火焰抵抗\n25% 更佳机会取得魔法装备\n回复耐久度1于4秒内\nÿcO重要属性：16级反抗光环、触发5级偷取生命\n其他亮点：恢复耐久、260ed\n美中不足：缺RES、CTB，反抗光环极大地提高了DEF，恢复耐久能够放心地使用无形底材\n偷取生命的诅咒更是提高了杀BOSS时的安全性\nÿcC底材推荐\nÿc8旋风盾：DEF最高的PAL盾，能将DEF最大化，RES类型的较为通用\n神圣小盾：格挡率最高的PAL盾，STR需求更适合PVC\n其他：神圣轻圆盾是没有神圣小盾时的次选择",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 1918, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4凤凰\nÿc3100% 机率当你升级时施展等级40炽烈之径\n40% 打击时施展等级22火风暴\n等级 10-15 救赎灵气赋予 ÿcU(变动)\nÿc3+350-400% 增强伤害 ÿcU(变动)\nÿc3-28% 对敌人火焰系抗性\n+350-400 对远距防御 ÿcU(变动)\nÿc3+50 生命\n+5% 最大闪电抵抗\n+10% 最大火焰抵抗\n+15-21 火焰吸收 ÿcU(变动)\nÿcO重要属性：13级救赎光环\n其他亮点：400ED、-28FR、21火吸\n美中不足：触发22级火风暴\n救赎光环能极大地提高续航性，400ED和BOTD并列为符文之语的最高ED\n却因触发的火风暴有15F的技能延迟，而废了绝大部分功用\nÿcC底材推荐\nÿc8统治者大盾：需求最低的4孔通用盾，可以牺牲副手精神的2级BO换来续航\n主手使用有的因为需要救赎续航，有的需要-FR，而WW需要ED且不会触发火风暴\n其他：圣盾和保护盾牌可供WWBB专用",
+                "sound": "",
+            }
+        },
+
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 2118, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4知识\nÿc3+1 所有技能等级\n+10 精力\n+2 法力在每杀死一名敌人之后取得\n+30% 闪电抗性\n伤害减少 7\n+2 照亮范围\nÿcO重要属性：1SKILL、2EK\n其他亮点：30LR、7DR\n美中不足：缺FCR\n对法系CHAR而言每一条都是有用的属性，入手也很容易\nÿcC底材推荐\nÿc8残酷头盔：扩展级中DEF最高的通用头盔\n其他：头环适合给对造型有要求的玩家，BB和DRU可以选有STAFFMOD的专用头",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 5, "y": 2157, "scale": 0.87  },
+                "filename": "PANEL\\message\\tab1",
+	 "hoveredFrame": 2,
+                "tooltipString": "ÿc4梦境\nÿc3被打 10% 机率产生 15 等的迷乱\n等级 15 神圣衝击灵气赋予\n+20-30% 再度快速攻击 ÿcU(变动)\nÿc330%增强防御\n+150-220 防御 ÿcU(变动)\nÿc3+10 体力\n增加最大血量 5%\n+0-61 法力 ( 依角色等级乘 0.625 )\n所有抗性 +5 - 20 (变动)\n12-25% 更佳取得魔法装备 ÿcU(变动)\nÿcO重要属性：15级神圣冲击光环\n其他亮点：30FHR、20RES、0.625MANA每级\n美中不足：缺-LR\nÿcC底材推荐\nÿc8骸骨面罩：STR需求和DEF较平衡的头盔\n巨魔骨盾：DEF最高的精华轻盾，适合给VIT型的双梦SOR\n亥伯龙盾：格挡率最高的通用盾中DEF最高的，适合给BLOCK型的双梦SOR\n神圣小盾：格挡率最高的PAL盾\n其他：神圣轻圆盾是没有神圣小盾时的次选择",
+                "sound": "",
+            }
+        },
+                    ]
+                }
+            ]
+        },
+    ]
+}
