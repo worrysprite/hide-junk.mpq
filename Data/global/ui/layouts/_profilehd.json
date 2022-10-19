@@ -304,7 +304,7 @@
         "SetColor": "$FontColorGreen",
         "UniqueColor": "$FontColorGoldYellow",
         "SocketedColor": "$FontColorGrey",
-        "EtherealColor": "$FontColorEtherealColor",
+        "EtherealColor": "$FontColorGrey",
         "HealthPotionColor": "$FontColorWhite",
         "ManaPotionColor": "$FontColorWhite",
         "RejuvPotionColor": "$FontColorWhite",
