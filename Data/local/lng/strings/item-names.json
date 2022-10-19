@@ -1431,7 +1431,7 @@
 		"id": 2006,
 		"Key": "bsd",
 		"enUS": "Broad Sword",
-		"zhTW": "",
+		"zhTW": "闊劍(普通)",
 		"deDE": "[ns]Breitschwert",
 		"esES": "[fs]Espada ancha",
 		"frFR": "[fs]Épée large",
@@ -1442,7 +1442,7 @@
 		"jaJP": "ブロードソード",
 		"ptBR": "[fs]Espada Larga",
 		"ruRU": "[ms]широкий меч",
-		"zhCN": ""
+		"zhCN": "阔剑(普通)"
 	},
 	{
 		"id": 2007,
@@ -4882,7 +4882,7 @@
 		"id": 2218,
 		"Key": "aqv",
 		"enUS": "Arrows",
-		"zhTW": "箭矢",
+		"zhTW": "",
 		"deDE": "Pfeile",
 		"esES": "Flechas",
 		"frFR": "[fp]Flèches",
@@ -4893,7 +4893,7 @@
 		"jaJP": "矢",
 		"ptBR": "[fp]Flechas",
 		"ruRU": "Стрелы",
-		"zhCN": "箭矢"
+		"zhCN": ""
 	},
 	{
 		"id": 2219,
@@ -4916,7 +4916,7 @@
 		"id": 2220,
 		"Key": "cqv",
 		"enUS": "Bolts",
-		"zhTW": "弩彈",
+		"zhTW": "",
 		"deDE": "Bolzen",
 		"esES": "Saetas",
 		"frFR": "[mp]Traits",
@@ -4927,7 +4927,7 @@
 		"jaJP": "ボルト",
 		"ptBR": "[fp]Setas",
 		"ruRU": "[pl]арбалетные стрелы",
-		"zhCN": "弩弹"
+		"zhCN": ""
 	},
 	{
 		"id": 2221,
@@ -5120,7 +5120,7 @@
 		"id": 2236,
 		"Key": "gcv",
 		"enUS": "Chipped Amethyst",
-		"zhTW": "ÿcN碎紫",
+		"zhTW": "ÿcP碎紫",
 		"deDE": "lädierter Amethyst",
 		"esES": "Amatista fragmentada",
 		"frFR": "Améthyste abîmée",
@@ -5131,7 +5131,7 @@
 		"jaJP": "欠けたアメジスト",
 		"ptBR": "[fs]Ametista Lascada",
 		"ruRU": "Надколотый аметист",
-		"zhCN": "ÿcN碎紫"
+		"zhCN": "ÿcP碎紫"
 	},
 	{
 		"id": 2237,
