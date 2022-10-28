@@ -1,930 +1,979 @@
 {
-    "type": "SettingsPanel", "name": "message1Panel",
-    "fields": {
-        "priority": 9003,
-        "rect": { "x": 1510, "y": -377, "width": 650, "height": 1130 },
-        "anchor": "$LeftPanelAnchor",
-        "applySettingsImmediately": false,
-    },
-    "children": [
-         {
-            "type": "ImageWidget", "name": "ScrollBarBackground",
-            "fields": {
-                "rect": { "x": 10, "y": -128 },
-                "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll",
-            },
-            "children": [
-                {
-                    "type": "ScrollControllerWidget", "name": "ScrollController",
-                    "fields": {
-                        "rect": { "x": -31, "y": 29, "width": 26, "height": 1208 },
-                        "anchor": { "x": 1.0 },
-                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
-                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "PauseMenu\\VerticalIndicator",
-                        "viewName": "ScrollView",
-                        "wheelScrollSound": "cursor_scroll_hd",
-                        "buttonScrollSound": "cursor_scroll_hd",
-                    }
-                },
-            ]
-        },
-        {
-            "type": "ScrollViewWidget", "name": "ScrollView",
-            "fields": {
-                "fitToParent": true,
-                "scrollControllerName": "ScrollController",
-            },
-            "children": [
-                {
-                    "type": "TableWidget", "name": "OptionsTable",
-                    "fields": {
-                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
-                        "rowHeight": "$ModTableRowHeight",
-                    },
-                    "children": [
-                        {
-                            "type": "TableRowWidget", "name": "RowModQoL",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "ModQolTitle",
-                                    "fields": {
-                                        "text": "·符文合成·",
-                                        "style": {
-    			    "fontColor": "$FontColorGold",
-    			    "pointSize": "$MediumFontSize",
-    			    "spacing" : "$ReducedSpacing",
-    			    "alignment": { "h": "left", "v": "center" },
-      			    "options": { "lineWrap": true },
-
-
-                                                  },
-                                    },
-                                },
-                            ]
-                        },
-
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 80, "scale": 0.80 },
-                "filename": "items\\misc\\rune\\eld_rune",
-                "tooltipString": "ÿc3ÿc82#(Eld) = 1#(El)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 80, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\tir_rune",
-                "tooltipString": "ÿc3ÿc83#(Tir) = 2#(Eld)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 160, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\nef_rune",
-                "tooltipString": "ÿc3ÿc84#(Nef) = 3#(Tir)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 240, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\eth_rune",
-                "tooltipString": "ÿc3ÿc85#(Eth) = 4#(Nef)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 320, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\ith_rune",
-                "tooltipString": "ÿc3ÿc86#(Ith) = 5#(Eth)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 400, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\tal_rune",
-                "tooltipString": "ÿc3ÿc87#(Tal) = 6#(Ith)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 480, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\ral_rune",
-                "tooltipString": "ÿc3ÿc88#(Ral) = 7#(Tal)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 560, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\ort_rune",
-                "tooltipString": "ÿc3ÿc89#(Ort) = 8#(Ral)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 160, "scale": 0.80 },
-                "filename": "items\\misc\\rune\\Thul_rune",
-                "tooltipString": "ÿc3ÿc810#(Thul) = 9#(Ort)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 80, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Amn_rune",
-                "tooltipString": "ÿc3ÿc811#(Amn) = 10#(Thul)×3 + @gcy",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 160, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Sol_rune",
-                "tooltipString": "ÿc3ÿc812#(Sol) = 11#(Amn)×3 + @gcv",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 240, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Shael_rune",
-                "tooltipString": "ÿc3ÿc813#(Shael) = 12#(Sol)×3 + @gcb",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 320, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Dol_rune",
-                "tooltipString": "ÿc3ÿc814#(Dol) = 13#(Shael)×3 + @gcr",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 400, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Hel_rune",
-                "tooltipString": "ÿc3ÿc815#(Hel) = 14#(Dol)×3 + @gcg",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 480, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Io_rune",
-                "tooltipString": "ÿc3ÿc816#(Io) = 15#(Hel)×3 + @gcw",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 560, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Lum_rune",
-                "tooltipString": "ÿc3ÿc817#(Lum) = 16#(Io)×3 + @gfy",
-                "sound": "",
-            }
-        },
-
-
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 240, "scale": 0.80 },
-                "filename": "items\\misc\\rune\\Ko_rune",
-                "tooltipString": "ÿc3ÿc818#(Ko) = 17#(Lum)×3 + @gfv",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 80, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Fal_rune",
-                "tooltipString": "ÿc3ÿc819#(Fal) = 18#(Ko)×3 + @gfb",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 160, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Lem_rune",
-                "tooltipString": "ÿc3ÿc820#(Lem) = 19#(Fal)×3 + @gfr",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 240, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Pul_rune",
-                "tooltipString": "ÿc3ÿc821#(Pul) = 20#(Lem)×3 + @gfg",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 320, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Um_rune",
-                "tooltipString": "ÿc3ÿc822#(Um) = 21#(Pul)×2 + @gfw",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 400, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Mal_rune",
-                "tooltipString": "ÿc3ÿc823#(Mal) = 22#(Um)×2 + @gsy",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 480, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Ist_rune",
-                "tooltipString": "ÿc3ÿc824#(Ist) = 23#(Mal)×2 + @gsv",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 560, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Gul_rune",
-                "tooltipString": "ÿc3ÿc825#(Gul) = 24#(Ist)×2 + @gsb",
-                "sound": "",
-            }
-        },
-
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 320, "scale": 0.80 },
-                "filename": "items\\misc\\rune\\Vex_rune",
-                "tooltipString": "ÿc3ÿc826#(Vex) = 25#(Gul)×2 + @gsr",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 80, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Ohm_rune",
-                "tooltipString": "ÿc3ÿc827#(Ohm) = 26#(Vex)×2 + @gsg",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 160, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Lo_rune",
-                "tooltipString": "ÿc3ÿc828#(Lo) = 27#(Ohm)×2 + @gsw",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 240, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Sur_rune",
-                "tooltipString": "ÿc3ÿc829#(Sur) = 28#(Lo)×2 + @gly",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 320, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Ber_rune",
-                "tooltipString": "ÿc3ÿc830#(Ber) = 29#(Sur)×2 + @gzv",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 400, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Jah_rune",
-                "tooltipString": "ÿc3ÿc831#(Jah) = 30#(Ber)×2 + @glb",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 480, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Cham_rune",
-                "tooltipString": "ÿc3ÿc832#(Cham) = 31#(Jah)×2 + @glr",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 560, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\zod_rune",
-                "tooltipString": "ÿc3ÿc833#(Zod) = 32#(Cham)×2 + @glg",
-                "sound": "",
-            }
-        },
-
-
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 80, "scale": 0.80 },
-                "filename": "items\\misc\\rune\\eld_rune",
-                "tooltipString": "ÿc3ÿc82#(Eld) = 1#(El)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 80, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\tir_rune",
-                "tooltipString": "ÿc3ÿc83#(Tir) = 2#(Eld)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 160, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\nef_rune",
-                "tooltipString": "ÿc3ÿc84#(Nef) = 3#(Tir)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 240, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\eth_rune",
-                "tooltipString": "ÿc3ÿc85#(Eth) = 4#(Nef)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 320, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\ith_rune",
-                "tooltipString": "ÿc3ÿc86#(Ith) = 5#(Eth)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 400, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\tal_rune",
-                "tooltipString": "ÿc3ÿc87#(Tal) = 6#(Ith)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 480, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\ral_rune",
-                "tooltipString": "ÿc3ÿc88#(Ral) = 7#(Tal)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 560, "y": 80, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\ort_rune",
-                "tooltipString": "ÿc3ÿc89#(Ort) = 8#(Ral)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 160, "scale": 0.80 },
-                "filename": "items\\misc\\rune\\Thul_rune",
-                "tooltipString": "ÿc3ÿc810#(Thul) = 9#(Ort)×3",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 80, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Amn_rune",
-                "tooltipString": "ÿc3ÿc811#(Amn) = 10#(Thul)×3 + @gcy",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 160, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Sol_rune",
-                "tooltipString": "ÿc3ÿc812#(Sol) = 11#(Amn)×3 + @gcv",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 240, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Shael_rune",
-                "tooltipString": "ÿc3ÿc813#(Shael) = 12#(Sol)×3 + @gcb",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 320, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Dol_rune",
-                "tooltipString": "ÿc3ÿc814#(Dol) = 13#(Shael)×3 + @gcr",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 400, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Hel_rune",
-                "tooltipString": "ÿc3ÿc815#(Hel) = 14#(Dol)×3 + @gcg",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 480, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Io_rune",
-                "tooltipString": "ÿc3ÿc816#(Io) = 15#(Hel)×3 + @gcw",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 560, "y": 160, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Lum_rune",
-                "tooltipString": "ÿc3ÿc817#(Lum) = 16#(Io)×3 + @gfy",
-                "sound": "",
-            }
-        },
-
-
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 240, "scale": 0.80 },
-                "filename": "items\\misc\\rune\\Ko_rune",
-                "tooltipString": "ÿc3ÿc818#(Ko) = 17#(Lum)×3 + @gfv",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 80, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Fal_rune",
-                "tooltipString": "ÿc3ÿc819#(Fal) = 18#(Ko)×3 + @gfb",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 160, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Lem_rune",
-                "tooltipString": "ÿc3ÿc820#(Lem) = 19#(Fal)×3 + @gfr",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 240, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Pul_rune",
-                "tooltipString": "ÿc3ÿc821#(Pul) = 20#(Lem)×3 + @gfg",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 320, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Um_rune",
-                "tooltipString": "ÿc3ÿc822#(Um) = 21#(Pul)×2 + @gfw",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 400, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Mal_rune",
-                "tooltipString": "ÿc3ÿc823#(Mal) = 22#(Um)×2 + @gsy",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 480, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Ist_rune",
-                "tooltipString": "ÿc3ÿc824#(Ist) = 23#(Mal)×2 + @gsv",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 560, "y": 240, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Gul_rune",
-                "tooltipString": "ÿc3ÿc825#(Gul) = 24#(Ist)×2 + @gsb",
-                "sound": "",
-            }
-        },
-
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 320, "scale": 0.80 },
-                "filename": "items\\misc\\rune\\Vex_rune",
-                "tooltipString": "ÿc3ÿc826#(Vex) = 25#(Gul)×2 + @gsr",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 80, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Ohm_rune",
-                "tooltipString": "ÿc3ÿc827#(Ohm) = 26#(Vex)×2 + @gsg",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 160, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Lo_rune",
-                "tooltipString": "ÿc3ÿc828#(Lo) = 27#(Ohm)×2 + @gsw",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 240, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Sur_rune",
-                "tooltipString": "ÿc3ÿc829#(Sur) = 28#(Lo)×2 + @gly",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 320, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Ber_rune",
-                "tooltipString": "ÿc3ÿc830#(Ber) = 29#(Sur)×2 + @gzv",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 400, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Jah_rune",
-                "tooltipString": "ÿc3ÿc831#(Jah) = 30#(Ber)×2 + @glb",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 480, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\Cham_rune",
-                "tooltipString": "ÿc3ÿc832#(Cham) = 31#(Jah)×2 + @glr",
-                "sound": "",
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 560, "y": 320, "scale": 0.80  },
-                "filename": "items\\misc\\rune\\zod_rune",
-                "tooltipString": "ÿc3ÿc833#(Zod) = 32#(Cham)×2 + @glg",
-                "sound": "",
-            }
-        },
-
-                        {
-                            "type": "TableRowWidget", "name": "Row Spacer",
-                        },
-
-                        {
-                            "type": "TableRowWidget", "name": "Row Spacer",
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Row Spacer",
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Row Spacer",
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Row Spacer",
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Row Spacer",
-                        },
-
-
-
-                                {
-                                    "type": "TextBoxWidget", "name": "ModInfoText343",
-                                    "fields": {
-                                        "text": "·装备升级·",
-           	      	        "rect": { "x": 0, "y": 440,  },
-                                        "style": {
-    			    "fontColor": "$FontColorGold",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-
-
-                                                  },
-                                    }
-                                },
-                     
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "亮金防具普通级  =>  扩展级",
-           	      	        "rect": { "x": 0, "y": 520,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorYellow",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "8# + 10# + 5级紫宝石",
-           	      	        "rect": { "x": 80, "y": 560,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "亮金防具扩展级  =>  精华级",
-           	      	        "rect": { "x": 0, "y": 600,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorYellow",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "18# + 21# + 5级紫宝石",
-           	      	        "rect": { "x": 80, "y": 640,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "亮金武器普通级  =>  扩展级",
-           	      	        "rect": { "x": 0, "y": 680,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorYellow",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "9# + 11# + 5级蓝宝石",
-           	      	        "rect": { "x": 80, "y": 720,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "亮金武器扩展级  =>  精华级",
-           	      	        "rect": { "x": 0, "y": 760,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorYellow",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "19# + 22# + 5级蓝宝石",
-           	      	        "rect": { "x": 80, "y": 800,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "暗金防具普通级  =>  扩展级",
-           	      	        "rect": { "x": 0, "y": 880,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorGoldYellow",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "7# + 13# + 5级钻石",
-           	      	        "rect": { "x": 80, "y": 920,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "暗金防具扩展级  =>  精华级",
-           	      	        "rect": { "x": 0, "y": 960,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorGoldYellow",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "18# + 20# + 5级钻石",
-           	      	        "rect": { "x": 80, "y": 1000,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "暗金武器普通级  =>  扩展级",
-           	      	        "rect": { "x": 0, "y": 1040,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorGoldYellow",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "8# + 12# + 5级绿宝石",
-           	      	        "rect": { "x": 80, "y": 1080,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "暗金武器扩展级  =>  精华级",
-           	      	        "rect": { "x": 0, "y": 1120,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorGoldYellow",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "17# + 21# + 5级绿宝石",
-           	      	        "rect": { "x": 80, "y": 1160,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "ModInfoText",
-                                    "fields": {
-                                        "text": "·橙装合成·",
-           	      	        "rect": { "x": 0, "y": 1240,  },
-                                        "style": {
-    			    "fontColor": "$FontColorPartyOrange",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-
-
-                                                  },
-                                    }
-                                },
-        {
-            "type": "ImageWidget", "name": "Rune",
-            "fields": {
-                "rect": { "x": 0, "y": 1320, "scale": 0.87 },
-                "filename": "PANEL\\message\\cz",
-                "sound": "",
-            }
-        },
-                                {
-                                    "type": "TextBoxWidget", "name": "text",
-                                    "fields": {
-                                        "text": "  ",
-           	      	        "rect": { "x": 0, "y": 6000,  },
-                                        "style": {
-                     		    "fontColor": "$FontColorWhite",
-    			    "pointSize": "$MediumFontSize",
-    			    "alignment": { "h": "left", "v": "center" },
-                                                   },
-                                               },
-                                },
-
-
-
-
-
-
-
-                    ]
-                }
-            ]
-        },
-    ]
+	"type": "SettingsPanel",
+	"name": "message1Panel",
+	"fields": {
+		"priority": 9003,
+		"rect": {
+			"x": 1510,
+			"y": -377,
+			"width": 650,
+			"height": 1130
+		},
+		"anchor": "$LeftPanelAnchor",
+		"applySettingsImmediately": false
+	},
+	"children": [
+		{
+			"type": "ImageWidget",
+			"name": "ScrollBarBackground",
+			"fields": {
+				"rect": {
+					"x": 10,
+					"y": -128
+				},
+				"anchor": {
+					"x": 1.0
+				},
+				"filename": "PauseMenu\\VerticalScroll"
+			},
+			"children": [
+				{
+					"type": "ScrollControllerWidget",
+					"name": "ScrollController",
+					"fields": {
+						"rect": {
+							"x": -31,
+							"y": 29,
+							"width": 26,
+							"height": 1208
+						},
+						"anchor": {
+							"x": 1.0
+						},
+						"upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+						"downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+						"barFilepath": "PauseMenu\\VerticalIndicator",
+						"viewName": "ScrollView",
+						"wheelScrollSound": "cursor_scroll_hd",
+						"buttonScrollSound": "cursor_scroll_hd"
+					}
+				}
+			]
+		},
+		{
+			"type": "ScrollViewWidget",
+			"name": "ScrollView",
+			"fields": {
+				"fitToParent": true,
+				"scrollControllerName": "ScrollController"
+			},
+			"children": [
+				{
+					"type": "TableWidget",
+					"name": "OptionsTable",
+					"fields": {
+						"columns": [
+							"$OptionsTableColumn1",
+							"$OptionsTableColumn2"
+						],
+						"rowHeight": "$ModTableRowHeight"
+					},
+					"children": [
+						{
+							"type": "TableRowWidget",
+							"name": "RowModQoL",
+							"children": [
+								{
+									"type": "TextBoxWidget",
+									"name": "ModQolTitle",
+									"fields": {
+										"text": "·符文升級·",
+										"style": {
+											"fontColor": "$FontColorGold",
+											"pointSize": "$MediumFontSize",
+											"spacing": "$ReducedSpacing",
+											"alignment": {
+												"h": "left",
+												"v": "center"
+											},
+											"options": {
+												"lineWrap": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 0,
+									"y": 80,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\eld_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r01L x 3 = @r02L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 80,
+									"y": 80,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\tir_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r02L x 3 = @r03L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 160,
+									"y": 80,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\nef_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r03L x 3 = @r04L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 240,
+									"y": 80,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\eth_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r04L x 3 = @r05L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 320,
+									"y": 80,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\ith_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r05L x 3 = @r06L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 400,
+									"y": 80,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\tal_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r06L x 3 = @r07L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 480,
+									"y": 80,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\ral_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r07L x 3 = @r08L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 560,
+									"y": 80,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\ort_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r08L x 3 = @r09L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 0,
+									"y": 160,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Thul_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r09L x 3 = @r10L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 80,
+									"y": 160,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Amn_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r10L x 3 + @gcy = @r11L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 160,
+									"y": 160,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Sol_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r11L x 3 + @gcv = @r12L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 240,
+									"y": 160,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Shael_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r12L x 3 + @gcb = @r13L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 320,
+									"y": 160,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Dol_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r13L x 3 + @gcr = @r14L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 400,
+									"y": 160,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Hel_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r14L x 3 + @gcg = @r15L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 480,
+									"y": 160,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Io_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r15L x 3 + @gcw = @r16L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 560,
+									"y": 160,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Lum_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r16L x 3 + @gfy = @r17L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 0,
+									"y": 240,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Ko_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r17L x 3 + @gfv = @r18L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 80,
+									"y": 240,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Fal_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r18L x 3 + @gfb = @r19L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 160,
+									"y": 240,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Lem_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r19L x 3 + @gfr = @r20L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 240,
+									"y": 240,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Pul_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r20L x 3 + @gfg = @r21L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 320,
+									"y": 240,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Um_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r21L x 2 + @gfw = @r22L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 400,
+									"y": 240,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Mal_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r22L x 2 + @gsy = @r23L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 480,
+									"y": 240,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Ist_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r23L x 2 + @gsv = @r24L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 560,
+									"y": 240,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Gul_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r24L x 2 + @gsb = @r25L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 0,
+									"y": 320,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Vex_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r25L x 2 + @gsr = @r26L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 80,
+									"y": 320,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Ohm_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r26L x 2 + @gsg = @r27L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 160,
+									"y": 320,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Lo_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r27L x 2 + @gsw = @r28L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 240,
+									"y": 320,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Sur_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r28L x 2 + @gly = @r29L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 320,
+									"y": 320,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Ber_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r29L x 2 + @gzv = @r30L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 400,
+									"y": 320,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Jah_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r30L x 2 + @glb = @r31L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 480,
+									"y": 320,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\Cham_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r31L x 2 + @glr = @r32L"
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 560,
+									"y": 320,
+									"scale": 0.80
+								},
+								"filename": "items\\misc\\rune\\zod_rune",
+								"hoveredFrame": 0,
+								"pressedFrame": 0,
+								"tooltipString": "@r32L x 2 + @glg = @r33L"
+							}
+						},
+						{
+							"type": "TableRowWidget",
+							"name": "Row Spacer"
+						},
+						{
+							"type": "TableRowWidget",
+							"name": "Row Spacer"
+						},
+						{
+							"type": "TableRowWidget",
+							"name": "Row Spacer"
+						},
+						{
+							"type": "TableRowWidget",
+							"name": "Row Spacer"
+						},
+						{
+							"type": "TableRowWidget",
+							"name": "Row Spacer"
+						},
+						{
+							"type": "TableRowWidget",
+							"name": "Row Spacer"
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "ModInfoText343",
+							"fields": {
+								"text": "·装备升级·",
+								"rect": {
+									"x": 0,
+									"y": 440
+								},
+								"style": {
+									"fontColor": "$FontColorGold",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "亮金防具普通级  =>  扩展级",
+								"rect": {
+									"x": 0,
+									"y": 520
+								},
+								"style": {
+									"fontColor": "$FontColorYellow",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "8# + 10# + 完美紫宝石",
+								"rect": {
+									"x": 80,
+									"y": 560
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "亮金防具扩展级  =>  精华级",
+								"rect": {
+									"x": 0,
+									"y": 600
+								},
+								"style": {
+									"fontColor": "$FontColorYellow",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "18# + 21# + 完美紫宝石",
+								"rect": {
+									"x": 80,
+									"y": 640
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "亮金武器普通级  =>  扩展级",
+								"rect": {
+									"x": 0,
+									"y": 680
+								},
+								"style": {
+									"fontColor": "$FontColorYellow",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "9# + 11# + 完美蓝宝石",
+								"rect": {
+									"x": 80,
+									"y": 720
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "亮金武器扩展级  =>  精华级",
+								"rect": {
+									"x": 0,
+									"y": 760
+								},
+								"style": {
+									"fontColor": "$FontColorYellow",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "19# + 22# + 完美蓝宝石",
+								"rect": {
+									"x": 80,
+									"y": 800
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "暗金防具普通级  =>  扩展级",
+								"rect": {
+									"x": 0,
+									"y": 880
+								},
+								"style": {
+									"fontColor": "$FontColorGoldYellow",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "7# + 13# + 完美钻石",
+								"rect": {
+									"x": 80,
+									"y": 920
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "暗金防具扩展级  =>  精华级",
+								"rect": {
+									"x": 0,
+									"y": 960
+								},
+								"style": {
+									"fontColor": "$FontColorGoldYellow",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "18# + 20# + 完美钻石",
+								"rect": {
+									"x": 80,
+									"y": 1000
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "暗金武器普通级  =>  扩展级",
+								"rect": {
+									"x": 0,
+									"y": 1040
+								},
+								"style": {
+									"fontColor": "$FontColorGoldYellow",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "8# + 12# + 完美绿宝石",
+								"rect": {
+									"x": 80,
+									"y": 1080
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "暗金武器扩展级  =>  精华级",
+								"rect": {
+									"x": 0,
+									"y": 1120
+								},
+								"style": {
+									"fontColor": "$FontColorGoldYellow",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "17# + 21# + 完美绿宝石",
+								"rect": {
+									"x": 80,
+									"y": 1160
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "ModInfoText",
+							"fields": {
+								"text": "·橙装合成·",
+								"rect": {
+									"x": 0,
+									"y": 1240
+								},
+								"style": {
+									"fontColor": "$FontColorPartyOrange",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						},
+						{
+							"type": "ButtonWidget",
+							"name": "Rune",
+							"fields": {
+								"rect": {
+									"x": 0,
+									"y": 1320,
+									"scale": 0.87
+								},
+								"filename": "PANEL\\message\\cz"
+							}
+						},
+						{
+							"type": "TextBoxWidget",
+							"name": "text",
+							"fields": {
+								"text": "  ",
+								"rect": {
+									"x": 0,
+									"y": 6000
+								},
+								"style": {
+									"fontColor": "$FontColorWhite",
+									"pointSize": "$MediumFontSize",
+									"alignment": {
+										"h": "left",
+										"v": "center"
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }

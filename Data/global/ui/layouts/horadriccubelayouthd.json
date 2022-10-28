@@ -62,7 +62,7 @@
 				},
 				"filename": "PANEL\\Character_Sheet\\AdvancedStatsButton",
 				"hoveredFrame": 3,
-				"onClickMessage": "PanelManager:OpenPanel:messagePanel",
+				"onClickMessage": "PanelManager:TogglePanel:messagePanel",
 				"pressLabelOffset": {
 					"x": 0,
 					"y": 2

@@ -802,7 +802,7 @@
 		"id": 1969,
 		"Key": "vbl",
 		"enUS": "Light Belt",
-		"zhTW": "",
+		"zhTW": "輕腰帶(普通)",
 		"deDE": "[ms]leichter Gürtel",
 		"esES": "[ms]Cinturón ligero",
 		"frFR": "[fs]Fine ceinture",
@@ -813,13 +813,13 @@
 		"jaJP": "ライト・ベルト",
 		"ptBR": "[ms]Cinto Leve",
 		"ruRU": "[ms]легкий пояс",
-		"zhCN": ""
+		"zhCN": "轻腰带(普通)"
 	},
 	{
 		"id": 1970,
 		"Key": "mbl",
 		"enUS": "Belt",
-		"zhTW": "",
+		"zhTW": "腰帶(普通)",
 		"deDE": "[ms]Gürtel",
 		"esES": "[ms]Cinturón",
 		"frFR": "[fs]Ceinture",
@@ -830,7 +830,7 @@
 		"jaJP": "ベルト",
 		"ptBR": "[ms]Cinto",
 		"ruRU": "[ms]пояс",
-		"zhCN": ""
+		"zhCN": "腰带(普通)"
 	},
 	{
 		"id": 1971,
@@ -853,7 +853,7 @@
 		"id": 1972,
 		"Key": "hbl",
 		"enUS": "Plated Belt",
-		"zhTW": "",
+		"zhTW": "鎧甲腰帶(普通)",
 		"deDE": "[ms]Plattengürtel",
 		"esES": "[ms]Cinturón de placas",
 		"frFR": "[fs]Ceinture en plaques",
@@ -864,7 +864,7 @@
 		"jaJP": "プレート・ベルト",
 		"ptBR": "[ms]Cinto de Placas",
 		"ruRU": "[ms]латный пояс",
-		"zhCN": ""
+		"zhCN": "铠甲腰带(普通)"
 	},
 	{
 		"id": 1973,
@@ -2060,7 +2060,7 @@
 		"id": 2043,
 		"Key": "wst",
 		"enUS": "War Staff",
-		"zhTW": "",
+		"zhTW": "征戰法杖(普通)",
 		"deDE": "[ms]Schlachtenstab",
 		"esES": "[ms]Bastón de guerra",
 		"frFR": "[ms]Bâton de guerre",
@@ -2071,7 +2071,7 @@
 		"jaJP": "ウォー・スタッフ",
 		"ptBR": "[ms]Cajado Bélico",
 		"ruRU": "[ms]воинский посох",
-		"zhCN": ""
+		"zhCN": "征战法杖(普通)"
 	},
 	{
 		"id": 2044,
@@ -3233,7 +3233,7 @@
 		"id": 2114,
 		"Key": "8ws",
 		"enUS": "Rune Staff",
-		"zhTW": "符文之棍(擴展)",
+		"zhTW": "符文法杖(擴展)",
 		"deDE": "[ms]Runenstab",
 		"esES": "[ms]Bastón rúnico",
 		"frFR": "[ms]Bâton runique",
@@ -3244,7 +3244,7 @@
 		"jaJP": "ルーン・スタッフ",
 		"ptBR": "[ms]Cajado Rúnico",
 		"ruRU": "[ms]рунический посох",
-		"zhCN": "符文之棍(扩展)"
+		"zhCN": "符文法杖(扩展)"
 	},
 	{
 		"id": 2115,
@@ -13977,7 +13977,7 @@
 		"id": 20268,
 		"Key": "6ws",
 		"enUS": "Archon Staff",
-		"zhTW": "執政官之杖(精英)",
+		"zhTW": "執政官之杖ÿc1(精英)",
 		"deDE": "[ms]Archonstab",
 		"esES": "[ms]Bastón de arconte",
 		"frFR": "[ms]Bâton de l’Archonte",
@@ -13988,7 +13988,7 @@
 		"jaJP": "アルコン・スタッフ",
 		"ptBR": "[ms]Cajado do Arconte",
 		"ruRU": "[ms]архонтов посох",
-		"zhCN": "执政官之杖(精英)"
+		"zhCN": "执政官之杖ÿc1(精英)"
 	},
 	{
 		"id": 20269,
@@ -14028,7 +14028,7 @@
 		"id": 20271,
 		"Key": "6lb",
 		"enUS": "Shadow Bow",
-		"zhTW": "陰影弓ÿc1(精英)",
+		"zhTW": "陰影弓(精英)",
 		"deDE": "[ms]Schattenbogen",
 		"esES": "[ms]Arco sombrío",
 		"frFR": "[ms]Arc d’ombre",
@@ -14039,7 +14039,7 @@
 		"jaJP": "シャドウ・ボウ",
 		"ptBR": "[ms]Arco Sombrio",
 		"ruRU": "[ms]темный лук",
-		"zhCN": "阴影弓ÿc1(精英)"
+		"zhCN": "阴影弓(精英)"
 	},
 	{
 		"id": 20272,
