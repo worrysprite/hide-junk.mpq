@@ -11388,7 +11388,7 @@ desecrated_enter	11385	desecrated_enter_hd	sfx/ambient/event-3d_sd	quest\desecra
 desecrated_enter_hd	11386		sfx/ambient/event-3d_hd	quest\desecrated_enter_hd.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	4	25	60	255	1	0	0	1	0	-1	-1	-1	0	0	
 music_desecrated	11387	music_desecrated_hd	music_sd	common\options.flac	0	1	0	0	0	127	127	100	100	0	0	1	125	125	1	0	0	0	0	25	0	255	1	1	0	0	1	-1	-1	-1	0	0	
 music_desecrated_hd	11388		music_hd	common\options_hd.flac	0	1	0	0	0	127	127	100	100	0	0	1	125	125	1	0	0	0	0	100	0	255	1	1	0	0	1	-1	-1	-1	0	0	
-high_rune	11389		sfx/items_hd	item\axe_drop_rare_01.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
+high_rune	11389		sfx/items_hd	item\hearthstone.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 torch_key	11390	torch_key_hd	sfx/items_sd	item\key.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 torch_key_hd	11391		sfx/items_hd	item\torch_key.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 enchant_end	11399		sfx/items_hd	states_end_sound\enchant_end.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	0	15	90	255	0	0	1	1	0	-1	-1	-1	0	0	

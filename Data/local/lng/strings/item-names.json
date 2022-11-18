@@ -2026,7 +2026,7 @@
 		"id": 2041,
 		"Key": "cst",
 		"enUS": "Gnarled Staff",
-		"zhTW": "",
+		"zhTW": "木節法杖ÿc1(普通)",
 		"deDE": "[ms]Knorrenstab",
 		"esES": "[ms]Bastón nudoso",
 		"frFR": "[ms]Bâton noueux",
@@ -2037,13 +2037,13 @@
 		"jaJP": "ナールド・スタッフ",
 		"ptBR": "[ms]Cajado Nodoso",
 		"ruRU": "[ms]изогнутый посох",
-		"zhCN": ""
+		"zhCN": "木节法杖ÿc1(普通)"
 	},
 	{
 		"id": 2042,
 		"Key": "bst",
 		"enUS": "Battle Staff",
-		"zhTW": "",
+		"zhTW": "戰鬥法杖ÿc1(普通)",
 		"deDE": "[ms]Kriegsstab",
 		"esES": "[ms]Bastón de batalla",
 		"frFR": "[ms]Bâton de bataille",
@@ -2054,7 +2054,7 @@
 		"jaJP": "バトル・スタッフ",
 		"ptBR": "[ms]Cajado de Batalha",
 		"ruRU": "[ms]боевой посох",
-		"zhCN": ""
+		"zhCN": "战斗法杖ÿc1(普通)"
 	},
 	{
 		"id": 2043,
@@ -3250,7 +3250,7 @@
 		"id": 2115,
 		"Key": "8bs",
 		"enUS": "Gothic Staff",
-		"zhTW": "哥德之棍(擴展)",
+		"zhTW": "哥德法杖ÿc1(擴展)",
 		"deDE": "[ms]Prunkstab",
 		"esES": "[ms]Bastón gótico",
 		"frFR": "[ms]Bâton gothique",
@@ -3261,13 +3261,13 @@
 		"jaJP": "ゴシック・スタッフ",
 		"ptBR": "[ms]Cajado Gótico",
 		"ruRU": "[ms]готический посох",
-		"zhCN": "哥德之棍(扩展)"
+		"zhCN": "哥德之棍ÿc1(扩展)"
 	},
 	{
 		"id": 2116,
 		"Key": "8cs",
 		"enUS": "Cedar Staff",
-		"zhTW": "杉木之棍(擴展)",
+		"zhTW": "杉木法杖ÿc1(擴展)",
 		"deDE": "[ms]Zedernstab",
 		"esES": "[ms]Bastón de cedro",
 		"frFR": "[ms]Bâton de cèdre",
@@ -3278,7 +3278,7 @@
 		"jaJP": "シーダー・スタッフ",
 		"ptBR": "[ms]Cajado de Cedro",
 		"ruRU": "[ms]кедровый посох",
-		"zhCN": "杉木之棍(扩展)"
+		"zhCN": "杉木法杖ÿc1(扩展)"
 	},
 	{
 		"id": 2117,
@@ -12702,7 +12702,7 @@
 		"id": 20192,
 		"Key": "9tw",
 		"enUS": "Greater Talons",
-		"zhTW": "巨鷹爪(擴展)",
+		"zhTW": "巨鷹爪ÿc1(擴展)",
 		"deDE": "[pl]Großklauen",
 		"esES": "[fp]Garfas enormes",
 		"frFR": "[fp]Grandes serres",
@@ -12713,7 +12713,7 @@
 		"jaJP": "グレーター・タロン",
 		"ptBR": "[fp]Patas Superiores",
 		"ruRU": "[pl]длинные птичьи когти",
-		"zhCN": "巨鹰爪(扩展)"
+		"zhCN": "巨鹰爪ÿc1(扩展)"
 	},
 	{
 		"id": 20193,
@@ -12821,7 +12821,7 @@
 		"id": 20199,
 		"Key": "7tw",
 		"enUS": "Runic Talons",
-		"zhTW": "符紋爪(精英)",
+		"zhTW": "符紋爪ÿc1(精英)",
 		"deDE": "[pl]Runenklauen",
 		"esES": "[fp]Garfas rúnicas",
 		"frFR": "[fp]Serres runiques",
@@ -12832,7 +12832,7 @@
 		"jaJP": "ルーニック・タロン",
 		"ptBR": "[fp]Garras Rúnicas",
 		"ruRU": "[pl]рунные птичьи когти",
-		"zhCN": "符纹爪(精英)"
+		"zhCN": "符纹爪ÿc1(精英)"
 	},
 	{
 		"id": 20200,
@@ -13382,7 +13382,7 @@
 		"id": 20233,
 		"Key": "7wd",
 		"enUS": "Mythical Sword",
-		"zhTW": "秘儀之劍(精英)",
+		"zhTW": "秘儀之劍ÿc1(精英)",
 		"deDE": "[ns]Mythisches Schwert",
 		"esES": "[fs]Espada mítica",
 		"frFR": "[fs]Épée mythique",
@@ -13393,7 +13393,7 @@
 		"jaJP": "ミシカル・ソード",
 		"ptBR": "[fs]Espada Mítica",
 		"ruRU": "[ms]мифический меч",
-		"zhCN": "秘仪之剑(精英)"
+		"zhCN": "秘仪之剑ÿc1(精英)"
 	},
 	{
 		"id": 20234,
@@ -13790,7 +13790,7 @@
 		"id": 20257,
 		"Key": "7p7",
 		"enUS": "War Pike",
-		"zhTW": "戰槍(精英)",
+		"zhTW": "戰槍ÿc1(精英)",
 		"deDE": "[fs]Kriegspike",
 		"esES": "[fs]Pica de guerra",
 		"frFR": "[fs]Pique de guerre",
@@ -13801,7 +13801,7 @@
 		"jaJP": "ウォーパイク",
 		"ptBR": "[ms]Pique Bélico",
 		"ruRU": "[fs]воинская пика",
-		"zhCN": "战枪(精英)"
+		"zhCN": "战枪ÿc1(精英)"
 	},
 	{
 		"id": 20258,
@@ -13943,7 +13943,7 @@
 		"id": 20266,
 		"Key": "6cs",
 		"enUS": "Elder Staff",
-		"zhTW": "長老之杖(精英)",
+		"zhTW": "長老之杖ÿc1(精英)",
 		"deDE": "[ms]Ältestenstab",
 		"esES": "[ms]Bastón de anciano",
 		"frFR": "[ms]Bâton ancestral",
@@ -13954,13 +13954,13 @@
 		"jaJP": "エルダー・スタッフ",
 		"ptBR": "[ms]Cajado Ancião",
 		"ruRU": "[ms]бузинный посох",
-		"zhCN": "长老之杖(精英)"
+		"zhCN": "长老之杖ÿc1(精英)"
 	},
 	{
 		"id": 20267,
 		"Key": "6bs",
 		"enUS": "Shillelagh",
-		"zhTW": "樹皮之杖(精英)",
+		"zhTW": "樹皮之杖ÿc1(精英)",
 		"deDE": "Shillelagh",
 		"esES": "[ms]Shillelagh",
 		"frFR": "[ms]Shillelagh",
@@ -13971,7 +13971,7 @@
 		"jaJP": "シレーラ",
 		"ptBR": "[ms]Shillelagh",
 		"ruRU": "[fs]шилейла",
-		"zhCN": "树皮之杖(精英)"
+		"zhCN": "树皮之杖ÿc1(精英)"
 	},
 	{
 		"id": 20268,
@@ -14759,7 +14759,7 @@
 		"id": 20314,
 		"Key": "amd",
 		"enUS": "Matriarchal Spear",
-		"zhTW": "女族長之矛(精英)",
+		"zhTW": "女族長之長矛(精英)",
 		"deDE": "[ms]Matriarchenspeer",
 		"esES": "[fs]Lanza matriarcal",
 		"frFR": "[fs]Lance matriarcale",
@@ -14770,13 +14770,13 @@
 		"jaJP": "メイトリアーカル・スピア",
 		"ptBR": "[fs]Lança Matriarcal",
 		"ruRU": "[ns]матриаршее копье",
-		"zhCN": "女族长之矛(精英)"
+		"zhCN": "女族长之长矛(精英)"
 	},
 	{
 		"id": 20315,
 		"Key": "ame",
 		"enUS": "Matriarchal Pike",
-		"zhTW": "女族長之長矛(精英)",
+		"zhTW": "女族長之長槍ÿc1(精英)",
 		"deDE": "[fs]Matriarchenpike",
 		"esES": "[fs]Pica matriarcal",
 		"frFR": "[fs]Pique matriarcale",
@@ -14787,7 +14787,7 @@
 		"jaJP": "メイトリアーカル・パイク",
 		"ptBR": "[ms]Pique Matriarcal",
 		"ruRU": "[fs]матриаршая пика",
-		"zhCN": "女族长之长矛(精英)"
+		"zhCN": "女族长之长枪ÿc1(精英)"
 	},
 	{
 		"id": 20316,

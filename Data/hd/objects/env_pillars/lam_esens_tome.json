@@ -1,96 +1,54 @@
 {
-  "dependencies":
-  {
-    "particles":
-    [
+  "dependencies": {
+    "particles": [
       {
-        "path": "data/hd/vfx/particles/objects/env_stone/stone_alpha/vfx_glow_light.particles"
-      },
-      {
-        "path": "data/hd/vfx/particles/objects/env_stone/stone_alpha/vfx_stone_glow.particles"
+        "path": "data/hd/vfx/particles/character/enemy/valkyrie/valkyrie_aura.particles"
       }
     ],
-    "models":
-    [
+    "models": [
+      { "path": "data/hd/objects/env_pillars/arcane_tome/model/torso.model" }
+    ],
+    "skeletons": [
       {
-        "path": "data/hd/objects/env_stone/stone_alpha/model/torso.model"
+        "path": "data/hd/objects/env_pillars/arcane_tome/skeleton/arcane_tome.skeleton"
       }
     ],
-    "skeletons":
-    [
+    "animations": [],
+    "textures": [
       {
-        "path": "data/hd/objects/env_stone/stone_alpha/skeleton/stone_alpha.skeleton"
+        "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_alb.texture"
+      },
+      {
+        "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_nrm.texture"
+      },
+      {
+        "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_orm.texture"
       }
     ],
-    "animations":
-    [
-    ],
-    "textures":
-    [
+    "physics": [],
+    "json": [
       {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_01_alb.texture"
-      },
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_01_nrm.texture"
-      },
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_01_orm.texture"
-      },
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_02_alb.texture"
-      },
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_02_nrm.texture"
-      },
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_02_orm.texture"
-      },
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/StoneEmissives_alb.texture"
-      },
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/StoneEmissives_nrm.texture"
-      },
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/texture/StoneEmissives_orm.texture"
-      },
-      {
-        "path": "data/hd/vfx/textures/gradient/T_FX_ParaboloidGradient_Padded_02.texture"
+        "path": "data/hd/objects/env_pillars/arcane_tome/arcane_tome_state_machine.json"
       }
     ],
-    "physics":
-    [
-    ],
-    "json":
-    [
-      {
-        "path": "data/hd/objects/env_stone/stone_alpha/stone_alpha_state_machine.json"
-      }
-    ],
-    "variantdata":
-    [
-    ],
-    "objecteffects":
-    [
-    ],
-    "other":
-    [
-    ]
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
   },
   "type": "UnitDefinition",
-  "name": "stone_alpha",
+  "name": "lam_esens_tome",
   "entities":
   [
     {
       "type": "Entity",
       "name": "entity_root",
-      "id": 2138785783,
+      "id": 1391327335,
       "components":
       [
         {
           "type": "UnitRootComponent",
           "name": "component_root",
-          "state_machine_filename": "data/hd/objects/env_stone/stone_alpha/stone_alpha_state_machine.json",
+          "state_machine_filename": "data/hd/objects/env_pillars/arcane_tome/arcane_tome_state_machine.json",
           "doNotInheritRotation": false,
           "rotationOverride":
           {
@@ -109,14 +67,14 @@
         {
           "type": "SkeletonDefinitionComponent",
           "name": "component_skeleton",
-          "filename": "data/hd/objects/env_stone/stone_alpha/skeleton/stone_alpha.skeleton"
+          "filename": "data/hd/objects/env_pillars/arcane_tome/skeleton/arcane_tome.skeleton"
         }
       ]
     },
     {
       "type": "Entity",
       "name": "entity_torso",
-      "id": 3010886831,
+      "id": 1923640052,
       "components":
       [
         {
@@ -128,7 +86,7 @@
         {
           "type": "ModelDefinitionComponent",
           "name": "component_model_torso",
-          "filename": "data/hd/objects/env_stone/stone_alpha/model/torso.model",
+          "filename": "data/hd/objects/env_pillars/arcane_tome/model/torso.model",
           "visibleLayers": 1,
           "lightMask": 19,
           "shadowMask": 3,
@@ -136,87 +94,29 @@
           "floorModel": false,
           "terrainBlendEnableYUpBlend": false,
           "terrainBlendMode": 1
-        },
-        {
-          "type": "ModelPlatformTierComponent",
-          "name": "entity_torso_ModelPlatformTier",
-          "visibilityTier": -1,
-          "shadowTier": 0
         }
       ]
     },
     {
       "type": "Entity",
-      "name": "entity_vfx",
-      "id": 1489854027,
+      "name": "vfx",
+      "id": 856925902,
       "components":
       [
         {
           "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/objects/env_stone/stone_alpha/vfx_glow_light.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx_2",
-      "id": 3829542293,
-      "components":
-      [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_2_VfxDefinition",
-          "filename": "data/hd/vfx/particles/objects/env_stone/stone_alpha/vfx_stone_glow.particles",
+          "name": "vfx_VfxDefinition",
+          "filename": "data/hd/vfx/particles/objects/shrines_other/shrine_baal_magic/vfx_shrine_baal_magic.particles",
           "hardKillOnDestroy": false
         },
         {
           "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_2_TransformDefinition",
+          "name": "vfx_TransformDefinition",
           "position":
-          {
-            "x": 4.25,
-            "y": 7.0,
-            "z": 3.0
-          },
-          "orientation":
           {
             "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale":
-          {
-            "x": 1.0,
-            "y": 1.0,
+            "y": -0.5,
             "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx_3",
-      "id": 2023298107,
-      "components":
-      [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_3_VfxDefinition",
-          "filename": "data/hd/vfx/particles/objects/env_stone/stone_alpha/vfx_stone_glow.particles",
-          "hardKillOnDestroy": false
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_3_TransformDefinition",
-          "position":
-          {
-            "x": 2.4,
-            "y": 7.3,
-            "z": 3.5
           },
           "orientation":
           {
