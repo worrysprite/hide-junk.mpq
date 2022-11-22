@@ -2060,7 +2060,7 @@
 		"id": 2043,
 		"Key": "wst",
 		"enUS": "War Staff",
-		"zhTW": "征戰法杖(普通)",
+		"zhTW": "征戰法杖ÿc1(普通)",
 		"deDE": "[ms]Schlachtenstab",
 		"esES": "[ms]Bastón de guerra",
 		"frFR": "[ms]Bâton de guerre",
@@ -2071,7 +2071,7 @@
 		"jaJP": "ウォー・スタッフ",
 		"ptBR": "[ms]Cajado Bélico",
 		"ruRU": "[ms]воинский посох",
-		"zhCN": "征战法杖(普通)"
+		"zhCN": "征战法杖ÿc1(普通)"
 	},
 	{
 		"id": 2044,
@@ -3233,7 +3233,7 @@
 		"id": 2114,
 		"Key": "8ws",
 		"enUS": "Rune Staff",
-		"zhTW": "符文法杖(擴展)",
+		"zhTW": "符文法杖ÿc1(擴展)",
 		"deDE": "[ms]Runenstab",
 		"esES": "[ms]Bastón rúnico",
 		"frFR": "[ms]Bâton runique",
@@ -3244,7 +3244,7 @@
 		"jaJP": "ルーン・スタッフ",
 		"ptBR": "[ms]Cajado Rúnico",
 		"ruRU": "[ms]рунический посох",
-		"zhCN": "符文法杖(扩展)"
+		"zhCN": "符文法杖ÿc1(扩展)"
 	},
 	{
 		"id": 2115,
@@ -4746,7 +4746,7 @@
 		"id": 2209,
 		"Key": "rvs",
 		"enUS": "Rejuvenation Potion",
-		"zhTW": "小紫",
+		"zhTW": "",
 		"deDE": "Regenerationstrank",
 		"esES": "Poción rejuvenecedora",
 		"frFR": "Potion de rajeunissement",
@@ -4757,7 +4757,7 @@
 		"jaJP": "回復のポーション",
 		"ptBR": "[fs]Poção de Rejuvenescimento",
 		"ruRU": "Зелье восстановления",
-		"zhCN": "小紫"
+		"zhCN": ""
 	},
 	{
 		"id": 2210,

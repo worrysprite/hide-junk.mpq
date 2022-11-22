@@ -1035,5 +1035,41 @@
 		"jaJP": "ÿcC\ue01A",
 		"ptBR": "ÿcC\ue01A",
 		"ruRU": "ÿcC\ue01A"
+	},
+	{
+		"id": 47051,
+		"Key": "QuickStartGame",
+		"enUS": "Quick Start",
+		"zhCN": "速 刷 游 戏",
+		"zhTW": "速 刷 遊 戲",
+		"zhTWO": "速 刷 遊 戲",
+		"deDE": "",
+		"esES": "",
+		"frFR": "",
+		"itIT": "",
+		"koKR": "",
+		"plPL": "",
+		"esMX": "",
+		"jaJP": "",
+		"ptBR": "",
+		"ruRU": ""
+	},
+	{
+		"id": 47052,
+		"Key": "QuickStartGameTooltipString",
+		"enUS": "Quickly create the Hardest game for the current character.",
+		"zhCN": "快速创建当前角色的最高难度游戏房间。",
+		"zhTW": "快速創建當前角色的最高難度遊戲房間。",
+		"zhTWO": "快速創建當前角色的最高難度遊戲房間。",
+		"deDE": "",
+		"esES": "",
+		"frFR": "",
+		"itIT": "",
+		"koKR": "",
+		"plPL": "",
+		"esMX": "",
+		"jaJP": "",
+		"ptBR": "",
+		"ruRU": ""
 	}
 ]
